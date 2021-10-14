@@ -43,7 +43,7 @@ fetch("https://ghibliapi.herokuapp.com/films")
             let list = document.createElement("li");
             ul.append(list);
             list.innerHTML = `
-                <div><strong>${yourReviewFilm}</strong> </div>
+                <b><strong>${yourReviewFilm}</strong></b>: ${inputText.value}
             `
         })
             

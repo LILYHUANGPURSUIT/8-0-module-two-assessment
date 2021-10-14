@@ -4,6 +4,7 @@ body {
     font-family: monospace;
     grid-template-areas: 
     "header"
+    "title-selector"
     "display-info"
     "reviewed-input";
 }
@@ -33,13 +34,16 @@ img {
     grid-template-areas: 
     ".title-selector  .  .  ."
     ".details  .  .  .";
-    margin-left: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 20px;
     text-align: center;
 }
 
 #movie-title-selector {
     grid-area: title-selector;
+    margin-top: 20px;
+    margin-left: 250px;
     width: 250px;
 }
 
@@ -57,7 +61,7 @@ img {
     "review-box"
     "list";
     grid-area: reviewed-input;
-    margin-left: 280px;
+    margin-left: 250px;
     margin-top: 30px;
     /* width: 300px; */
     text-align: center;
