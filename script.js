@@ -38,13 +38,13 @@ fetch("https://ghibliapi.herokuapp.com/films")
 
         reviewedInput.addEventListener("submit", (event)=> {
             event.preventDefault();
-            console.log(event.target)
             let yourReviewFilm = select.value;
             let list = document.createElement("li");
             ul.append(list);
             list.innerHTML = `
                 <b><strong>${yourReviewFilm}</strong></b>: ${inputText.value}
             `
+            event.target.reset();
         })
             
             
