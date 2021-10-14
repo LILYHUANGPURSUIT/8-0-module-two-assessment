@@ -31,9 +31,9 @@ img {
 #display-info {
     display: grid;
     grid-template-areas: 
-    ".  title-selector  .    .  "
-    ".  details  .    .  ";
-    margin-left: 30px;
+    ".title-selector  .  .  ."
+    ".details  .  .  .";
+    margin-left: 15px;
     padding: 20px;
     text-align: center;
 }
@@ -57,7 +57,7 @@ img {
     "review-box"
     "list";
     grid-area: reviewed-input;
-    margin-left: 230px;
+    margin-left: 280px;
     margin-top: 30px;
     /* width: 300px; */
     text-align: center;
