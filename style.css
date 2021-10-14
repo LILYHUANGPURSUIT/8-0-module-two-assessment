@@ -1,0 +1,75 @@
+body {
+    display: grid;
+    background-color: lavender;
+    font-family: monospace;
+    grid-template-areas: 
+    "header"
+    "display-info"
+    "reviewed-input";
+}
+
+header {
+    display: grid;
+    grid-template-areas: 
+    "img h1";
+    grid-area: header;
+    width: 75%;
+    height: 250px;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+
+h1 {
+    grid-area: h1;
+    text-align: left;
+}
+img {
+    grid-area: img;
+    height: 250px;
+}
+
+#display-info {
+    display: grid;
+    grid-template-areas: 
+    ".  title-selector  .    .  "
+    ".  details  .    .  ";
+    margin-left: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#movie-title-selector {
+    grid-area: title-selector;
+    width: 250px;
+}
+
+#search-info-details {
+    grid-area: details;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#reviewed-input {
+    display: grid;
+    grid-template-areas: 
+    "review-box"
+    "list";
+    grid-area: reviewed-input;
+    margin-left: 230px;
+    margin-top: 30px;
+    /* width: 300px; */
+    text-align: center;
+}
+
+#submit-review-box {
+    grid-area: review-box;
+    /* width: 200px; */
+    text-align: left;
+}
+
+#titles-list {
+    grid-area: list;
+    text-align: left;
+}
