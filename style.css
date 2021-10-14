@@ -31,13 +31,10 @@ img {
 
 #display-info {
     display: grid;
-    grid-template-areas: 
-    ".title-selector  .  .  ."
-    ".details  .  .  .";
     margin-left: 250px;
     margin-right: 250px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 #movie-title-selector {
@@ -46,14 +43,6 @@ img {
     margin-left: 250px;
     width: 250px;
 }
-
-#display-info {
-    grid-area: details;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
 
 #reviewed-input {
     display: grid;
